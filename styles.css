@@ -1,0 +1,259 @@
+
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 1rem;
+
+   
+    
+}
+.container{
+    display: block;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between ;
+    padding: 3.8rem;
+
+
+}
+
+.left-side{
+    display: flex;
+}
+.right-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 5.0rem;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    
+    
+}
+
+.nav-links-wrapper {
+    height: 2.2rem;
+    border-bottom: 1rem solid transparent;
+    transition: border-bottom 0.5s  ;
+}
+
+.nav-links-wrapper a {
+    color: #f3f3cd;
+    text-decoration: none;
+    transition: color 0.5s;
+    
+    justify-content: space-between;
+    
+
+}
+.nav-links-wrapper:hover {
+    border-bottom: 0.1rem solid rgb(230, 28, 18);
+}
+.nav-links-wrapper:hover a{
+    color:rgb(224, 108, 31);
+}
+.brand a {
+    color: #f3f3cd;
+    
+    text-decoration: none;
+    transition: color 0.5s;
+    justify-content: space-between;
+    margin-right: 1px;
+
+
+
+}
+.brand a:hover{
+    border-bottom: 0.1rem solid rgb(230, 28, 18);
+
+}
+.brand a:hover a{
+    color:rgb(224, 108, 31);
+}
+
+
+
+.portfolio.items.wrapper{
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.two-column-wrapper{
+    display: block;
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width:1000px){
+  body {
+        
+
+    background-image: url('https://i.ibb.co/QMCmfML/Whats-App-Image-2021-12-15-at-9-26-05-AM.jpg');
+   
+    /* List of bbackground image urls I tried and tested until I had THE perfect background *sighs* / it's a continuous process, here they are stored 
+    background-image: url('https://img.freepik.com/free-vector/background-with-blurred-foggy-gradient_105738-987.jpg?size=626&ext=jpg');
+     https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/21166e28008799.56e41b34c3e64.gif https://i.ibb.co/F3c1nQ0/Whats-App-Image-2021-11-15-at-5-29-04-PM.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH3GEBKyGZCmfQoxHIZ1otLOfXQ348sRKbiodpWAt-DmEhj038R-reTAK_aBp9Ma6UaPY&usqp');
+    background-image: url('https://wallpapercave.com/wp/wp8521069.jpg') ;
+    background-image: url('https://static3.depositphotos.com/1004899/i/600/depositphotos_2350915-stock-photo-smokey-bright-green-background.jpg');
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch5-mynt-13.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=92e466052245085dd6f61c884bb7d4e8');
+    background-image: url('https://images.clipartlogo.com/files/istock/previews/8847/88478775-seamless-pattern-with-leaves-on-the-light-green-color.jpg') ;
+    background-image: url('https://wallpapercave.com/wp/wp8521069.jpg') ; https://i.pinimg.com/originals/50/da/a5/50daa58a52dfeac1e42320ea6f53b37b.jpg
+    background-image: url('https://lh3.googleusercontent.com/proxy/k4Y1rFuNsV1XGsX1FO5sReeij4ioV3_aUQ0D8YRmIBpH-ZqsLJne0GspjK7fXN6pXzfHgjwmD2HHhvarx-g8Le0IOKeYP_NLtkwAlm1-4j_LljCN1dr-ad_4FxVy57xDJBhGv_GW0VsLt61dEjny-5cE1co');
+    background-image: url('https://lh3.googleusercontent.com/proxy/k4Y1rFuNsV1XGsX1FO5sReeij4ioV3_aUQ0D8YRmIBpH-ZqsLJne0GspjK7fXN6pXzfHgjwmD2HHhvarx-g8Le0IOKeYP_NLtkwAlm1-4j_LljCN1dr-ad_4FxVy57xDJBhGv_GW0VsLt61dEjny-5cE1co'); cc7979 ac3f3f 142 223 226
+    background-image: url('https://i.ibb.co/WnTVzxn/Whats-App-Image-2021-12-08-at-6-29-41-PM.jpg');
+    https://i.ibb.co/5nC5jLf/Whats-App-Image-2021-12-08-at-6-29-41-PM-5.jpg
+    https://i.ibb.co/DWgH0F7/Whats-App-Image-2021-12-08-at-6-29-41-PM-6.jpg
+    https://i.ibb.co/cbVqZQP/Whats-App-Image-2021-12-08-at-6-29-41-PM-7.jpg
+    https://i.ibb.co/QMCmfML/Whats-App-Image-2021-12-15-at-9-26-05-AM.jpg
+      
+     */
+     background-repeat: no-repeat;
+
+     width:auto;
+     height:auto;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+
+   }
+   .profile-image-wrapper img{
+    
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+    width: 40rem;
+  
+    animation: Slide_up 1s ease;
+}
+
+.Profile-content-wrapper{
+    text-align: justify; /* For Edge */
+    text-align-last: center;
+    
+    font-size:  40px;
+    animation: Slide_up 1s ease;
+}
+
+.Profile-content-wrapper {
+    color:rgb(231, 231, 230);
+    
+
+}
+.links-wrapper{
+  animation: Slide_up 1s ease;
+
+
+}
+
+@keyframes Slide_up{
+  0%{
+    transform:translateY(120px);
+  }
+ 100%{
+   transform: translateY(0);
+  }
+}
+
+}
+@media (min-width:1000px) {
+  .profile-image-wrapper img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+    max-width:18%;
+  
+    
+
+  }
+  body{
+    background-image: url('https://i.ibb.co/GJfhCsZ/Whats-App-Image-2021-12-04-at-9-21-14-PM.jpg');
+    background-repeat: no-repeat;
+
+    width:auto;
+    height:auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    zoom: 60%;
+
+
+  }
+  .Profile-content-wrapper{
+    display: none;
+  }
+  .links-wrapper{
+    
+    display: block;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 35px;
+    animation: Slide_up 1s ease;
+    
+
+  }
+  .footer{
+    display: none;
+  }  
+  .br{
+    display: none;
+  } 
+  
+.links-wrapper{
+  animation: Slide_up 1s ease;
+
+
+}
+   
+
+.profile-image-wrapper img{
+    
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+    width: 30rem;
+  
+    animation: Slide_up 1s ease;
+}
+
+.Profile-content-wrapper{
+    text-align: justify; /* For Edge */
+    text-align-last: center;
+    
+    font-size:  40px;
+    animation: Slide_up 1s ease;
+}
+
+.Profile-content-wrapper {
+    color:rgb(231, 231, 230);
+    
+
+}
+
+@keyframes Slide_up{
+  0%{
+    transform:translateY(120px);
+  }
+ 100%{
+   transform: translateY(0);
+  }
+}
+}

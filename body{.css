@@ -1,0 +1,33 @@
+
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 25px;
+    color: rgb(14, 1, 1);
+}
+@media (min-width:1000px) {
+    body{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        margin: 25px;
+        color: rgb(14, 1, 1);
+        zoom: 60%;
+        animation: Slide_up 1s ease;
+    }
+    
+
+      
+}
+@keyframes Slide_up{
+    0%{
+      transform:translateY(160px);
+    }
+   100%{
+     transform: translateY(0);
+    }
+}
+@media (max-width:1000px){
+    body{
+        animation: Slide_up 1s ease;
+
+    }
+}

@@ -167,7 +167,7 @@ body{
 
 @keyframes Slide_up{
   0%{
-    transform:translateY(80px);
+    transform:translateY(55px);
   }
  100%{
    transform: translateY(0);
@@ -256,7 +256,7 @@ body{
 
 @keyframes Slide_up{
   0%{
-    transform:translateY(80px);
+    transform:translateY(55px);
   }
  100%{
    transform: translateY(0);

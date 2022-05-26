@@ -134,6 +134,9 @@ body{
      background-attachment: fixed;
 
    }
+   .Profile-content-for-computer-wrapper{
+    display: None;
+ }
    .profile-image-wrapper img{
     
     display: inline-block;
@@ -145,9 +148,7 @@ body{
   
     animation: Slide_up 1s ease;
 }
-.Profile-content-for-computer-wrapper{
-    display: None;
-}
+
 
 .Profile-content-wrapper{
     text-align: justify; /* For Edge */

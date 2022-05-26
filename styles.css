@@ -91,6 +91,9 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+.footer{
+    animation: Slide_up 1s ease;
+}
 
 .two-column-wrapper{
     display: block;
@@ -205,7 +208,11 @@ body{
   }
   .Profile-content-wrapper{
     display: none;
-  }
+  }    
+  .Profile-content-for-computer-wrapper{
+    
+    animation: Slide_up 1s ease;
+ }
   .links-wrapper{
     
     display: block;

@@ -59,7 +59,7 @@ body{
     
 
 }
-.links-wrapper:hover {
+.nav-links-wrapper:hover {
     border-bottom: 0.1rem solid rgb(230, 28, 18);
 }
 .nav-links-wrapper:hover a{

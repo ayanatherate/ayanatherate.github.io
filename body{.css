@@ -6,8 +6,10 @@ body{
     color: rgb(14, 1, 1);
 }
 .links{
-    display: block;
-    display: inline-block;
+    
+    display: flex;
+    align-items:center;
+    justify-content:center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;

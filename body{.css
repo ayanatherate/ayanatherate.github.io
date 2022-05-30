@@ -6,6 +6,13 @@ body{
     color: rgb(14, 1, 1);
 }
 .links{
+    display: block;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 35px;
+    animation: Slide_up 1s ease;
 }
 @media (min-width:1000px) {
     body{

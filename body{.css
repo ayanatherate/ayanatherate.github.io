@@ -26,6 +26,8 @@ body{
         animation: Slide_up 1s ease;
     }
     
+    
+    
 
       
 }
@@ -41,5 +43,8 @@ body{
     body{
         animation: Slide_up 1s ease;
 
+    }
+    .computer-desc{
+        display:none;
     }
 }

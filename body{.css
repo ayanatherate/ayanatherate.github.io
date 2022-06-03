@@ -34,6 +34,14 @@ body{
         display: none;
     }
 }
+@keyframes Slide_up{
+    0%{
+      transform:translateY(160px);
+    }
+   100%{
+     transform: translateY(0);
+    }
+}
 @media (max-width:1000px){
     body{
         animation: Slide_up 1s ease;
@@ -41,5 +49,13 @@ body{
     }
     .computer-desc{
         display: none;
+    }
+}
+@keyframes Slide_up{
+    0%{
+      transform:translateY(160px);
+    }
+   100%{
+     transform: translateY(0);
     }
 }

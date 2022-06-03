@@ -23,26 +23,16 @@ body{
    100%{
      transform: translateY(0);
     }
-    
+}
     
 @media (min-width:1000px) {
     body{
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-        margin: 25px;
-        color: rgb(14, 1, 1);
-        zoom: 40%;
-        margin: 90px
+        
         animation: Slide_up 1s ease;
     }
     .mobile-desc{
         display: none;
     }
-   
-    
-
-      
-
-
 }
 @media (max-width:1000px){
     body{
@@ -50,6 +40,6 @@ body{
 
     }
     .computer-desc{
-        display:none;
+        display: none;
     }
 }

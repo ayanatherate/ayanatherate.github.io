@@ -27,7 +27,7 @@ body{
     
 @media (min-width:1000px) {
     body{
-        
+        zoom:70%;
         animation: Slide_up 1s ease;
     }
     .mobile-desc{

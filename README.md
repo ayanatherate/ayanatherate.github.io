@@ -1,3 +1,3 @@
 # ayanatherate.github.io
 
-Portfolio & blog
+Portfolio & blog, hosted with Github Pages.

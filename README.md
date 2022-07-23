@@ -1,3 +1,3 @@
 # ayanatherate.github.io
 
-Website/Photoblog
+Portfolio & blog

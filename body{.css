@@ -25,7 +25,7 @@ body{
     }
 }
     
-@media (min-width:700px) {
+@media (min-width:950px) {
     body{
         
         animation: Slide_up 1s ease;
@@ -48,7 +48,7 @@ body{
      transform: translateY(0);
     }
 }
-@media (max-width:700px){
+@media (max-width:950px){
     body{
         animation: Slide_up 1s ease;
 

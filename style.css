@@ -64,8 +64,13 @@ h2 {
 	content: "\f0e1";
 }
 
-.fa-rss:before {
-	content: "\f09e";
+
+.fa-google-drive:before {
+	content: "\f3d2";
+}
+
+.fa-camera:before {
+	content: "\f030";
 }
 
 /* Media query for mobile devices */

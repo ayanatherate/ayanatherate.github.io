@@ -73,15 +73,14 @@ h2 {
 	content: "\f030";
 }
 
-footer {
-	background-color: black;
-	height: 10px;
-}
+
 
 footer p {
 	text-align: center;
-	color: white;
+	color: rgb(50, 48, 48);
 	margin: 0;
+	margin-top: 50px;
+
 	padding: 5px 0;
 }
 

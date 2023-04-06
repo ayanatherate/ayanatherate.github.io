@@ -71,16 +71,16 @@ h2 {
 /* Media query for mobile devices */
 @media only screen and (max-width: 1000px) {
   h1 {
-    font-size: 56px;
+    font-size: 106px;
   }
   
   h2 {
-    font-size: 50px;
+    font-size: 90px;
     margin: 10px 0;
   }
   
   .links {
-    font-size: 44px;
+    font-size: 84px;
     margin-top: 10px;
   }
   

@@ -1,0 +1,62 @@
+body {
+	background: linear-gradient(to bottom, #f7f7f7, #c7c7c7);
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px 0;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+	margin: 0;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 20px 0;
+}
+
+.links {
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.links a {
+	color: #333;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.links a:hover {
+	color: #666;
+}
+
+.fa {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.fa-envelope:before {
+	content: "\f0e0";
+}
+
+.fa-github:before {
+	content: "\f09b";
+}
+
+.fa-linkedin:before {
+	content: "\f0e1";
+}
+
+.fa-rss:before {
+	content: "\f09e";
+}

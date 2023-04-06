@@ -66,7 +66,7 @@ h2 {
 
 
 .fa-google-drive:before {
-	content: "\f3d2";
+	content: url("https://cdn-icons-png.flaticon.com/512/5436/5436042.png")
 }
 
 .fa-camera:before {

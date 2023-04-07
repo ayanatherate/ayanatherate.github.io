@@ -16,6 +16,7 @@ body {
 	padding: 50px 0;
 }
 
+
 h1 {
 	font-size: 34px;
 	font-weight: normal;
@@ -109,4 +110,9 @@ footer p {
   .fa {
     margin: 0 10px;
   }
+}
+@media only screen and (min-width: 1000px) {
+	.break-style{
+		display:none;
+	}
 }

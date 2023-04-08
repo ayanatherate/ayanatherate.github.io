@@ -71,6 +71,12 @@ h2 {
 }
 .fa-file:before{
 	content: url("https://cdn-icons-png.flaticon.com/512/5436/5436042.png");
+	font-size: 25px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .fa-camera:before {

@@ -111,9 +111,16 @@ footer p {
   .fa {
     margin: 0 10px;
   }
+  .comp-logo{
+	  display: none;
+	}
 }
+
 @media only screen and (min-width: 1000px) {
 	.break-style{
+		display:none;
+	}
+	.mob-logo{
 		display:none;
 	}
 }

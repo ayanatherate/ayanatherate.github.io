@@ -4,6 +4,24 @@ body{
     background-color:#fff;
     color: rgb(14, 1, 1);
 }
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 70%;
+  margin-right: 10px;
+}
 
 @keyframes Slide_up{
     0%{

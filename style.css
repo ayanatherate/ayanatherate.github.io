@@ -4,7 +4,7 @@ body {
         45deg,  /* Angle of the gradient */
         #c9d4c2 0%,  /* Start color (yellow) */
         transparent 50%, /* Transparent color in the middle to create a smooth transition */
-        #ffffff 50%, /* End color (white) */
+        #b6f99e 50%, /* End color (white) */
         transparent 100% /* Transparent color at the end */
         );
 	margin: 0;

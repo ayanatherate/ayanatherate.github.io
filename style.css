@@ -1,9 +1,12 @@
 body {
 	
-	background: linear-gradient(to bottom, 
-        #ffffff 0%, #ffffff 50%,  /* Start with the first color (white) */
-        #ffcc00 50%, #ffcc00 100% /* Transition to the second color (yellow) */
-         );
+	background: linear-gradient(
+        45deg,  /* Angle of the gradient */
+        #c9d4c2 0%,  /* Start color (yellow) */
+        transparent 50%, /* Transparent color in the middle to create a smooth transition */
+        #ffffff 50%, /* End color (white) */
+        transparent 100% /* Transparent color at the end */
+        );
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;

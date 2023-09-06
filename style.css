@@ -2,9 +2,9 @@ body {
 	
 	background: linear-gradient(
         45deg,  /* Angle of the gradient */
-        #c9d4c2 0%,  /* Start color (yellow) */
+        #e1e6de 0%,  /* Start color (yellow) */
         transparent 50%, /* Transparent color in the middle to create a smooth transition */
-        #b6f99e 50%, /* End color (white) */
+        #c3c9c1 50%, /* End color (white) */
         transparent 100% /* Transparent color at the end */
         );
 	margin: 0;

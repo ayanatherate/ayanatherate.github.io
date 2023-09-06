@@ -54,13 +54,14 @@ h2 {
 }
 
 .links a {
-	color: #333;      
+	
+	color: #ffffff;     
 	text-decoration: none;
 	margin: 0 10px;
 }
 
 .links a:hover {
-	color: #f73f2a;
+	color: #aeadad; 
 }
 
 .fa {

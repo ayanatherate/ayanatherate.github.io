@@ -1,7 +1,7 @@
 body {
-	--color-tint: rgb(118, 138, 122);
-    --color-deepdark: #021708;
-    --color-softdark: #011006;
+	--color-tint: rgb(146, 195, 120);
+    --color-deepdark: #032a0e;
+    --color-softdark: #a4cdb2;
     --color-tint2: #00ff51;
     background: var(--color-tint2); /* Fallback color if gradients are not supported */
     background: linear-gradient(172deg, var(--color-tint) 0, var(--color-deepdark) 42%, var(--color-softdark) 100%);
